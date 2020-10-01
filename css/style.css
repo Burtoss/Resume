@@ -1,0 +1,147 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F5F7FA;
+	padding: 40px;
+}
+.wrapper {
+	background-color: #fff;
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+	background-color: #1E2939;
+	width: 370px;
+	padding: 40px 0 40px 0;
+}
+.sidebar img {
+	width: 370px;
+	height: auto;
+}
+.contacts-container, .tech-skills-container, .soft-skills-container {
+	margin: 50px 40px 0 40px;
+	color: #fff;
+}
+.contacts-container div {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.contacts-container div a {
+	color: #8F949C;
+	font-weight: normal;
+}
+.contacts-container h3, .tech-skills-container h3, .soft-skills-container h3 {
+	font-size: 22px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+.tech-skills-container li, .soft-skills-container li {
+	margin-left: 20px;
+	padding-bottom: 10px;
+	color: #FF6B08;
+}
+.tech-skills-container li span, .soft-skills-container li span {
+	color: #fff;
+}
+.about-me-container {
+	padding: 110px 90px 110px 90px;
+}
+.about-me-main-info  h2{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.about-me-main-info h1{
+	font-size: 45px;
+	line-height: 89px;
+	margin-bottom: 20px;
+}
+.about-me-main-info p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 24px;
+}
+.about-me-main-info {
+	margin-bottom: 65px;
+	max-width: 550px;
+}
+.projects-container {
+	margin-bottom: 50px;
+}
+.projects-container h3{
+	font-size: 22px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.projects-container li {
+	font-weight: 700;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-bottom: 7px;
+}
+.projects-container a, .projects-container span {
+	font-weight: 400;
+	color: #595959;
+}
+.projects-container b {
+	color: #000;
+}
+.work-experience-container {
+	margin-bottom: 50px;
+	max-width: 550px;
+}
+.work-experience-container h3 {
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+.work-experience-container h4 {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.work-experience-container h4 span {
+	color: #FF6B08;
+}
+.work-experience-time {
+	font-size: 12px;
+	line-height: 24px;
+	color: #A8A8A8;
+}
+.work-experience-time b {
+	color: #000;
+	font-weight: 400;
+}
+.work-experience-container ul {
+	margin-top: 13px;
+	margin-bottom: 20px;
+}
+.work-experience-container li {
+	margin-left: 15px;
+	padding-bottom: 7px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.education-container h3 {
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+.education-container h4 {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	color: #FF6B08;
+}
+.education-container p {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
